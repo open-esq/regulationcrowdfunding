@@ -1,4 +1,4 @@
-#DECENTRALIZED REGULATION FUNDRAISING PORTAL DEMONSTRATION
+# DECENTRALIZED REGULATION FUNDRAISING PORTAL DEMONSTRATION
 
 ## Plain English Overiew
 
@@ -12,7 +12,11 @@ Issuers using Regulation Crowdfunding are can raise up to $1.07 million within a
 
 >any [broker] acting as an intermediary in a transaction involving the offer or sale of securities for the account of others, solely pursuant to Securities Act Section 4(a)(6), that does not: (1) offer investment advice or recommendations; (2) solicit purchases, sales or offers to buy the securities offered or displayed on its website or portal; (3) compensate employees, agents or other persons for such solicitation or based on the sale of securities displayed or referenced on its website or portal; (4) hold, manage, possess or otherwise handle investor funds or securities; or (5) engage in such other activities as the Commission, by rule, determines appropriate. [Source:](https://www.sec.gov/rules/final/2015/33-9974.pdf). [Note that rule 300(c)(2) modified Exchange Act Section 3(a)(80) by changing "person" to "broker."]
 
-In addition, these funding portals must register with the SEC as a broker under Exchange Act Section 15(b), or as a funding portal pursuant to Section 4A(a)(1) and proposed Rule 400 of Regulation Crowdfunding (See Rule 300(a)).  The funding portals also must register with any applicable self-regulatory organization, as defined in Exchange Act Section 3(a)(26).  Exchange Act Section 3(h)(1)(B) separately requires, as a condition of the exemption from broker registration, that a funding portal be a member of a national securities association that is registered with the Commission under Exchange Act Section 15A. Id.  In other words, the portal has to also register with FINRA.
+In addition, these funding portals must register with the SEC as a broker under Exchange Act Section 15(b), or as a funding portal pursuant to Section 4A(a)(1) and proposed Rule 400 of Regulation Crowdfunding.  Rule 300(a).  The funding portals also must register with any applicable self-regulatory organization, as defined in Exchange Act Section 3(a)(26).  Exchange Act Section 3(h)(1)(B) separately requires, as a condition of the exemption from broker registration, that a funding portal be a member of a national securities association that is registered with the Commission under Exchange Act Section 15A. Id.  In other words, the portal has to also register with FINRA.
+
+The funding portal's directors, officers, and/or partners are prohibited from owning or receiving any benefit from issuers using their platform. Rule 300(b).  However, the portal *as an entity* may receive compensation from issuers provided that (1) the intermediary receives the financial interest from the issuer as compensation for the services provided to, or for the benefit of, the issuer in connection with the offer or sale of such securities being offered or sold in reliance of Regulation Crowdfunding through the intermediary's platform; and (2) the financial interest consists of securities of the same class and having the same terms, conditions, and rights as the securities being offered or sold in reliance of RC through the intermediary's platform.  Id.
+
+In other words, the issuer can compensate the portal for services provided in the form of money or common stock (same securities offered on the portal to the general public).
 
 The project is divided into the following three parts: (1) Issuer Streamlining; (2) Purchaser Portal; and (3) Identity Solutions.  Each of these parts are described below.
 
