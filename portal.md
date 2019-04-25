@@ -2,7 +2,7 @@
 
 ## Plain English Overiew
 
-We're building an SEC-compliant funding portal that need to verify that an individual actually exists, and that that invidual isn't spending more than $2,200 per year on this kind of fundraising (called "Regulation Fundraising).  The goal is to make this portal as a decentralized application ("DApp") using uPort, Chainlink, and OpenLaw.
+We're building an SEC-compliant funding portal that needs to verify that an individual investor actually exists as a legal person, and that that invidual isn't spending more than $2,200 per year on this kind of fundraising (called "Regulation Fundraising).  The goal is to make this portal as a decentralized application ("DApp") using uPort, Chainlink, and OpenLaw.
 
 ## Legal Overview
 
