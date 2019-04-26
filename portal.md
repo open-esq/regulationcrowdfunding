@@ -6,7 +6,7 @@ We're building an SEC-compliant funding portal that needs to verify that an indi
 
 ## Legalalise Overview
 
-The objective of this project is to present the Securities and Exchange Commission with a working model for a decentralized fundraising portal that's compliant with [17 CFR §§ 200, 227, 232, 239, 240, 249, 269, & 274 (2016)](https://www.sec.gov/rules/final/2015/33-9974.pdf).  This working model is intended to streamline SEC compliant fundraising using the [OpenLaw](OpenLaw.io) platform and Ethereum token sales.
+The objective of this project is to present the Securities and Exchange Commission with a working model for a fundraising portal that's compliant with SEC Rules concerning Regulation Fundraising.  (https://www.sec.gov/rules/final/2015/33-9974.pdf).  This working model is intended to streamline SEC compliant fundraising using the [OpenLaw](OpenLaw.io) platform and Ethereum token sales.
 
 Issuers using Regulation Crowdfunding are can raise up to $1.07 million within a 12-month period from the general public, including non-accredited investors.  However, these individual investors are restricted by the amount they are allowed to invest.  The SEC provided a chart showing the different limits investors are able to make depending on their annual income or net worth.  In order to ensure investors aren't exeeding their limit, the SEC has put into place, what they call, "funding portals," private businesses acting as brokers or intermediaries for the issuers and investors.  Specifically, the SEC defines funding portals as
 
@@ -55,6 +55,18 @@ relationship between the issuer and intermediary.
 (Rule 302(c) requirement)
 
 • the portal must inform investors, at the account opening stage, that any person who promotes an issuer's offering for compensation, whether past or prospective, or who is a founder or an employee of an issuer that engages in promotional activities on behalf of the issuer on the intermediary's platform, must clearly disclose in all communications on the platform the receipt of the compensation and the fact that he or she is engaging in promotional activities on behalf of the issuer.
+
+(Rule 302(d) requirement)
+
+• provide information to investors about the manner in which the portal will be compensated by the issuers.
+
+Rule 303(a) requires disclosure of information required under Rules 201 and 203(a):
+
+(1) be publicly available on the intermediary’s platform, in a manner that reasonably permits a person accessing the platform to save, download or otherwise store the information; 
+
+(2) be made publicly available on the intermediary’s platform for a minimum of 21 days before any securities are sold in the offering, during which time the intermediary may accept investment commitments; and 
+
+(3) remain publicly available on the intermediary’s platform until the offer and sale of securities is completed or cancelled (including any additional information provided by the issuer).
 
 The comments state that we are not prohibited from providing additional material.
 
