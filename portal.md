@@ -18,7 +18,7 @@ The funding portal's directors, officers, and/or partners are prohibited from ow
 
 In other words, the issuer can compensate the portal for services provided in the form of money or common stock (same securities offered on the portal to the general public).
 
-The project is divided into the following three parts: (1) Issuer Streamlining; (2) Purchaser Portal; and (3) Identity Solutions.  Each of these parts are described below.
+The project is divided into the following four parts: (0) Preliminary Matters; (1) Issuer Streamlining; (2) Purchaser Portal; and (3) Identity Solutions.  Each of these parts are described below.
 
 **Measures to reduce the risk of fraud**.  Securities Act Section 4A(a)(5) requires an intermediary to "take such measures to reduce the risk of fraud."  This "requires that an intermediary have a ***reasonable basis*** for believing that an issuer seeking to offer and sell securities" through the intermediary's platform complies with the related requirements in Regulation Crowdfunding [emphasis added] Rule 301(a).  
 
@@ -29,7 +29,11 @@ Rule 301(c)(1) requires an intermediary to deny access to its platform if the in
 Rule 301(c)(2) requires denial of access to its platform when the intermediary has a reasonable basis for believing that the issuer or offering presents the potential for fraud or otherwise raises concerns about investor protection.  It also requires (i) an intermediary deny access to an issuer if it reasonably believes that it is unable to adequately or effectively assess the risk of fraud of the issuer or its potential offering, and (ii) if the intermeidary becomes aware of information after it has granted the issuer access to its platform that causes it to reasonably believe that the issuer or the offering presents the potential for fraud or otherwise raises concerns regarding investor protection, the intermediary must promptly remove the offering from its platform, cancel the offering and return to investors any funds they may have committed.
 
 
+## Part 0: Preliminary Matters
 
+1. Creating a subsidiary owned in whole or part by Open, ESQ.
+2. Registering subsidiary as a fundraising portal with the SEC.
+3. Registering subsidiary as a fundraising portal with FINRA.
 
 ## Part 1: Issuer Streamlining
 
