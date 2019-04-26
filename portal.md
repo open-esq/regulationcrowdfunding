@@ -2,7 +2,7 @@
 
 ## Plain English Overiew
 
-We're building an SEC-compliant funding portal that needs to verify that an individual investor actually exists as a legal person, and that that invidual isn't spending more than $2,200 per year on this kind of fundraising (called "Regulation Fundraising).  The goal is to make this portal as a decentralized application ("DApp") using uPort, Chainlink, and OpenLaw.
+We're building an SEC-compliant funding portal that needs to verify that an individual investor actually exists as a legal person, and that that invidual isn't spending more than $2,200 per year on this kind of fundraising (called "Regulation Fundraising).  The goal is to make this portal as automated as possible using uPort, Chainlink, and OpenLaw.
 
 ## Legalalise Overview
 
@@ -24,9 +24,43 @@ The project is divided into the following three parts: (1) Issuer Streamlining; 
 
 In addition, Rule 301(b) "requires an intermediary to have a ***reasonable basis for believing that an issuer has established means to keep accurate records*** of the holders of the securities it would offer and sell through the intermediary's platform, and provides that in satisfying this requirement, an intermediary may rely on the representations of the issuer concerning its means of recordkeeping unless the intermediary has reason to question the reliability of those representations."
 
+Rule 301(c)(1) requires an intermediary to deny access to its platform if the intermediary has a ***reasonable basis*** for believing that an issuer is subject to a disqualification under Rule 503 of Regulation Crowfunding.  The rule also requires, as per Section 4A(a)(5), that an intermediary conduct a background and securities enforcement regulatory history check on each issuer whose securities are to be offered by the intermediary, as well as on each of its officers, directors, and 20% owners.
+
+Rule 301(c)(2) requires denial of access to its platform when the intermediary has a reasonable basis for believing that the issuer or offering presents the potential for fraud or otherwise raises concerns about investor protection.  It also requires (i) an intermediary deny access to an issuer if it reasonably believes that it is unable to adequately or effectively assess the risk of fraud of the issuer or its potential offering, and (ii) if the intermeidary becomes aware of information after it has granted the issuer access to its platform that causes it to reasonably believe that the issuer or the offering presents the potential for fraud or otherwise raises concerns regarding investor protection, the intermediary must promptly remove the offering from its platform, cancel the offering and return to investors any funds they may have committed.
+
+
+
 
 ## Part 1: Issuer Streamlining
 
+### Proposal A
+
+#### Assumptions
+
+^As per Rule 301(c)(1) & (2), the Portal is responsible for performing due dilligence on the issuer, its officers directors, and >20% owners.
+^Using that due dilligence, the portal needs the ability to deny access to issuer for which the portal has a reasonable basis that fraud is or was being committed.
+^Only skilled attorneys are capable of understanding the application of specific facts to legal starndars.
+
+#### Conclusion
+
+Decisions on whether specific issuers use the platform can't be made in a decentralized way.  Instead, they must ultimately be made by attorneys.
+
+#### Proposal
+
+Design the portal so that attorneys can have a period of time to do due dilligence on the issuer, and give the attorneys the power to deny the issuer ***at anytime*** they believe there is a reasonable basis for violations.
+
+### Proposal B
+
+#### Assumptions
+
+^The expertise of the participants in this demonstration is generally with Ethereum-based smart contracts.
+^The market this portal is targeting is specifically U.S.-based companies that want to fundraise using token sales.
+^Developers of this demonstrations wish to use the efficiency of what's been called "smart legal contracts" being developed on OpenLaw.
+^Regulation crowdfunding allows portals, ***as business entities***, to accept payment for services provided to issuers in the form of money or the same common equity being offered through the portal to the general public.
+
+#### Conclusion
+
+The portal will provide streamlining to U.S.-based companies wishing to launch their token sales on Ethereum.  This will include providing online forms using OpenLaw whenever appropriate.  The portal will change issuers for these services, in either money or common stock, along with the cost of due dilligence described in Proposal A.
 
 
 ## Part 2: Purchaser Portal
