@@ -60,7 +60,9 @@ relationship between the issuer and intermediary.
 
 • provide information to investors about the manner in which the portal will be compensated by the issuers.
 
-Rule 303(a) requires disclosure of information required under Rules 201 and 203(a):
+The comments state that we are not prohibited from providing additional material.
+
+Rule 303(a) requires disclosure of information required under Rules 201 and 203(a) not later than 21 days prior to the first day on which securities are sold to any investor:
 
 (1) be publicly available on the intermediary’s platform, in a manner that reasonably permits a person accessing the platform to save, download or otherwise store the information; 
 
@@ -68,7 +70,11 @@ Rule 303(a) requires disclosure of information required under Rules 201 and 203(
 
 (3) remain publicly available on the intermediary’s platform until the offer and sale of securities is completed or cancelled (including any additional information provided by the issuer).
 
-The comments state that we are not prohibited from providing additional material.
+Rule 303(a)(4) expressly ***forbids*** a portal to require an account to access that information.
+
+**Compliance with Investment Limits**
+
+Rule 303(b)(1) requires that a portal must have a ***reasonable basis*** for believing that the investor satisfies the investment limits established by Section 4(a)(6)(B).  The rule further allows an intermediary to rely on an investor's representations concerning annual income, networth, and the amount of the investor's other investments in securities sold in reliance of Section 4(a)(6) through other intermediaries unless the intermediary has a reasonable basis to question the reliability of the representation.
 
 
 
@@ -114,6 +120,15 @@ Design the portal so that attorneys can have a period of time to do due dilligen
 
 The portal will provide streamlining to U.S.-based companies wishing to launch their token sales on Ethereum.  This will include providing online forms using OpenLaw whenever appropriate.  The portal will change issuers for these services, in either money or common stock, along with the cost of due dilligence described in Proposal A.
 
-## Part 2: Purchaser Portal
+## Part 2: Investor Streamlining
+
+#### Assumptions
+
+0. The portal is required to ensure that an investor doesn't go over his/her investment limit.
+1. The portal is allowed to rely on representations from the investor, unless there's a reasonable basis for doubting him/her.
+2. Investors must "open an account" with the portal.
+3. In order to prevent duplicative and fraudulent accounts, the portal must ensure that a portal account is linked to an actual person with a real identity.
+4. The portal must send certain educational material and disclosures to an investor electronically (email) upon account creation.
+5. 
 
 ## Part 3: Identity Solutions
