@@ -20,6 +20,11 @@ In other words, the issuer can compensate the portal for services provided in th
 
 The project is divided into the following three parts: (1) Issuer Streamlining; (2) Purchaser Portal; and (3) Identity Solutions.  Each of these parts are described below.
 
+**Measures to reduce the risk of fraud**.  Securities Act Section 4A(a)(5) requires an intermediary to "take such measures to reduce the risk of fraud."  This "requires that an intermediary have a ***reasonable basis*** for believing that an issuer seeking to offer and sell securities" through the intermediary's platform complies with the related requirements in Regulation Crowdfunding [emphasis added] Rule 301(a).  
+
+In addition, Rule 301(b) "requires an intermediary to have a ***reasonable basis for believing that an issuer has established means to keep accurate records*** of the holders of the securities it would offer and sell through the intermediary's platform, and provides that in satisfying this requirement, an intermediary may rely on the representations of the issuer concerning its means of recordkeeping unless the intermediary has reason to question the reliability of those representations."
+
+
 ## Part 1: Issuer Streamlining
 
 
