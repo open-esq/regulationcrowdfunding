@@ -80,7 +80,9 @@ Rule 302(b)(2) requires that, each time before accepting an investment committme
 
 Rule 303(c) requires a portal to provide, on its platform, channels through which investors can communicate with one another and with representatives of the issuer about offerings made available on the intermediary's platform.  Portals are expressly ***prohibited*** from participating in communications in these channels.  The portal is also required to (2) make the communications channels publicly available; (2) permit only those persons who have opened accounts to post comments; and (3) require any person posting a comment in the communication channels to disclose whether he or she is a founder or an employee of an issuer engaging in promotional activities on behalf of the issuer, or is otherwise compensated, whether in the past or prospectively, to promote the issuer's offering.
 
-Rule 303(d) requires the portal to promptly send to the investor a notification upon receipt of an investment commitment.  The notification must disclose: (1) the dollar amount of the investment commitment [note: we might have to use ChainLink as an automated way to show the dollar amount, at the time of commitment, in ETH]; (2) the price of the securities, if known; (3) the name of the issuer; and (4) the date and time by which the investor may cancel the investment commitment.
+Rule 303(d) requires the portal to promptly send to the investor a notification upon receipt of an investment commitment.  The notification must disclose: (1) the dollar amount of the investment commitment [note: we might have to use a ChainLink oracle as an automated way to show the dollar amount, at the time of commitment, in ETH]; (2) the price of the securities, if known; (3) the name of the issuer; and (4) the date and time by which the investor may cancel the investment commitment.  This notitification must be provided by email or other electronic media, and would be documented in accordance with applicable recordkeeping rules.
+
+
 
 
 
