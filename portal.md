@@ -30,7 +30,7 @@ The project is divided into the following four parts: (0) Preliminary Matters; (
 
 ## Part 0: Preliminary Matters
 
-0. Creating a working demonstration the portal.
+0. Creating a working demonstration of the portal.
 1. Creating a subsidiary owned in whole or part by Open, ESQ LLC.
 2. Registering subsidiary as a fundraising portal with the SEC.
 3. Registering subsidiary as a fundraising portal with FINRA.
