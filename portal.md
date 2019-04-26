@@ -129,6 +129,6 @@ The portal will provide streamlining to U.S.-based companies wishing to launch t
 2. Investors must "open an account" with the portal.
 3. In order to prevent duplicative and fraudulent accounts, the portal must ensure that a portal account is linked to an actual person with a real identity.
 4. The portal must send certain educational material and disclosures to an investor electronically (email) upon account creation.
-5. 
+5. When an investor is fully compliant with these requirements, a ChainLink oracle can autonomously call a function on Issuer's token sale, whitelisting the investor's address.
 
 ## Part 3: Identity Solutions
