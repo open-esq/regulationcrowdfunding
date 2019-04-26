@@ -31,6 +31,7 @@ Rule 301(c)(2) requires denial of access to its platform when the intermediary h
 
 ## Part 0: Preliminary Matters
 
+0. Creating a working demonstration the portal.
 1. Creating a subsidiary owned in whole or part by Open, ESQ.
 2. Registering subsidiary as a fundraising portal with the SEC.
 3. Registering subsidiary as a fundraising portal with FINRA.
@@ -41,6 +42,7 @@ Rule 301(c)(2) requires denial of access to its platform when the intermediary h
 
 #### Assumptions
 
+0. The portal must ensure that no officers, directors, the like, and/or partners are receiving direct benefit from the issuers.
 1. As per Rule 301(c)(1) & (2), the Portal is responsible for performing due dilligence on the issuer, its officers directors, and >20% owners.
 2. Using that due dilligence, the portal needs the ability to deny access to issuer for which the portal has a reasonable basis that fraud is or was being committed.
 3. Only skilled attorneys are capable of understanding the application of specific facts to legal starndars.
@@ -57,10 +59,11 @@ Design the portal so that attorneys can have a period of time to do due dilligen
 
 #### Assumptions
 
-1. The expertise of the participants in this demonstration is generally with Ethereum-based smart contracts.
-2. The market this portal is targeting is specifically U.S.-based companies that want to fundraise using token sales.
+0. Regulation crowdfunding allows portals, ***as business entities***, to accept payment for services provided to issuers in the form of money or the same common equity being offered through the portal to the general public.
+1. The SEC considers cryptocurrency, including ETH, to be money.
+2. The market this portal is targeting is comprised only of U.S.-based companies that want to fundraise using token sales.
 3. Developers of this demonstrations wish to use the efficiency of what's been called "smart legal contracts" being developed on OpenLaw.
-4. Regulation crowdfunding allows portals, ***as business entities***, to accept payment for services provided to issuers in the form of money or the same common equity being offered through the portal to the general public.
+4. The expertise of the participants in this demonstration is generally with Ethereum-based smart contracts.
 
 #### Conclusion
 
