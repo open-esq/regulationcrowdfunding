@@ -30,6 +30,36 @@ Rule 302(a)(2) prohibits a portal from accepting an investor that has not "opene
 
 The comments to rule 302(a)(2) state that "opening an account" is required so that the portal can collect identifying information that could help prevent duplicative or fraudulent accounts.  In regards to duplicative or fraudulent accounts, ***uPort*** has the potential to solve this issue entirely by veryifying the indentity of individual investors.
 
+Rules 302(b)(1)(i)-(viii) require portals to deliver, at account opening, educational materials that are in plain language and otherwise designed to communicate effectively and accurately the following:
+
+• the process for the offer, purchase and issuance of securities through the intermediary;
+• the risks associated with investing in securities offered and sold in reliance on Section
+4(a)(6);
+• the types of securities that may be offered on the intermediary’s platform and the risks
+associated with each type of security, including the risk of having limited voting power
+as a result of dilution;
+• the restrictions on the resale of securities offered and sold in reliance on
+Section 4(a)(6);
+• the types of information that an issuer is required to provide in annual reports, the
+frequency of the delivery of that information, and the possibility that the issuer’s
+obligation to file annual reports may terminate in the future;
+• the limits on the amounts investors may invest, as set forth in Section 4(a)(6)(B);
+• the circumstances in which the issuer may cancel an investment commitment;
+• the limitations on an investor’s right to cancel an investment commitment;
+• the need for the investor to consider whether investing in a security offered and sold in
+reliance on Section 4(a)(6) is appropriate for him or her; and
+• that following completion of an offering, there may or may not be any ongoing
+relationship between the issuer and intermediary.
+• risks reasonably tailored to a portal's offerings and investors.
+
+(Rule 302(c) requirement)
+
+• the portal must inform investors, at the account opening stage, that any person who promotes an issuer's offering for compensation, whether past or prospective, or who is a founder or an employee of an issuer that engages in promotional activities on behalf of the issuer on the intermediary's platform, must clearly disclose in all communications on the platform the receipt of the compensation and the fact that he or she is engaging in promotional activities on behalf of the issuer.
+
+The comments state that we are not prohibited from providing additional material.
+
+
+
 The project is divided into the following four parts: (0) Preliminary Matters; (1) Issuer Streamlining; (2) Purchaser Portal; and (3) Identity Solutions.  Each of these parts are described below.
 
 ## Part 0: Preliminary Matters
