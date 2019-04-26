@@ -37,9 +37,9 @@ Rule 301(c)(2) requires denial of access to its platform when the intermediary h
 
 #### Assumptions
 
-^As per Rule 301(c)(1) & (2), the Portal is responsible for performing due dilligence on the issuer, its officers directors, and >20% owners.
-^Using that due dilligence, the portal needs the ability to deny access to issuer for which the portal has a reasonable basis that fraud is or was being committed.
-^Only skilled attorneys are capable of understanding the application of specific facts to legal starndars.
+^ As per Rule 301(c)(1) & (2), the Portal is responsible for performing due dilligence on the issuer, its officers directors, and >20% owners.
+^ Using that due dilligence, the portal needs the ability to deny access to issuer for which the portal has a reasonable basis that fraud is or was being committed.
+^ Only skilled attorneys are capable of understanding the application of specific facts to legal starndars.
 
 #### Conclusion
 
