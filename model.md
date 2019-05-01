@@ -1,6 +1,6 @@
 # Issuer Requirements
 
-0. Issuer cannot exceed $1,070,000 during a 12-month period. §227.100(a)(1).
+0. Issuer cannot exceed $1,070,000 during a 12-month period commencing with offer or sale. [§227.100(a)(1)](https://www.law.cornell.edu/cfr/text/17/227.100 "§227.100(a)(1)").
 1. Issuer must disclose certain information. §227.201.
 2. Issuer must file with the SEC, and post on the issuer's website, an annual report and certified financial statements. §227.202 & §227.203.
 3. Issuer may not, directly or indirectly, advertise the terms of an offering. §227.204.
