@@ -1,10 +1,10 @@
 # Issuer Requirements
 
 0. Issuer cannot exceed $1,070,000 during a 12-month period commencing with offer or sale. [§227.100(a)(1)](https://www.law.cornell.edu/cfr/text/17/227.100 "§227.100(a)(1)").
-1. Issuer must disclose certain information. §227.201.
-2. Issuer must file with the SEC, and post on the issuer's website, an annual report and certified financial statements. §227.202 & §227.203.
-3. Issuer may not, directly or indirectly, advertise the terms of an offering. §227.204.
-4. The issuer can compensate a promoter *through communication channels provided by an intermediary on the intermediary's platform, but only if the issuer or person acting on behalf of the issuer takes reasonable steps to ensure that the person promoting the offering clearly discloses the receipt, past or prospective, of such compensation with any such communication.
+1. Issuer must disclose certain information. [§227.201](https://www.law.cornell.edu/cfr/text/17/227.201 "§227.201").
+2. Issuer must file with the SEC, and post on the issuer's website, an annual report and certified financial statements. [§227.202](https://www.law.cornell.edu/cfr/text/17/227.202 "§227.202") & [§227.203](https://www.law.cornell.edu/cfr/text/17/227.203 "§227.203"). 
+3. Issuer may not, directly or indirectly, advertise the terms of an offering. [§227.204](https://www.law.cornell.edu/cfr/text/17/227.204 "§227.204"). # Should we mention the exception in 227.204(b)? "The issuer may direct investors to the intermediary's platform...
+4. The issuer can compensate a promoter *through communication channels provided by an intermediary on the intermediary's platform, but only if the issuer or person acting on behalf of the issuer takes reasonable steps to ensure that the person promoting the offering clearly discloses the receipt, past or prospective, of such compensation with any such communication. [§227.205](https://www.law.cornell.edu/cfr/text/17/227.205 "§227.205")
 
 # Intermediary Requirements
 
