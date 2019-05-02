@@ -26,7 +26,7 @@
 15. A funding portal must register with the SEC by filing a Form Funding Portal. [§227.400](https://www.law.cornell.edu/cfr/text/17/227.400 "§227.400") & [§249.2000](https://www.law.cornell.edu/cfr/text/17/249.2000 "§249.2000").
 16. The registration will be effective the later of: (1) Thirty calendar days after the date that the registration is received by the SEC; or (2) The date the funding portal is approved for membership by a national securities association (FINRA). [§227.400](https://www.law.cornell.edu/cfr/text/17/227.400 "§227.400")
 17. A funding portal must implement written policies and procedures reasonably designed to achieve compliance with federal securities laws, comply with the requirements of [Part 248](https://www.law.cornell.edu/cfr/text/17/part-248 "Part 248") involving privacy, and permit the examination and inspect of all business and business operations by the SEC. [§227.403](https://www.law.cornell.edu/cfr/text/17/227.403 "§227.403").
-18. A funding portal must make and keep certain records. [§227.404](https://www.law.cornell.edu/cfr/text/17/227.404 "§227.404).
+18. A funding portal must make and keep certain records. [§227.404](https://www.law.cornell.edu/cfr/text/17/227.404 "§227.404").
 
 # Securities Requirements
 
