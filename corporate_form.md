@@ -2,6 +2,10 @@
 
 # Corporate Governance for Primal ETH, Inc.
 
+> Ether [...] is one of the lower principles of what we call primordial substance, one of the dreams of old, and which has now become again the dream of modern science.
+
+> --H.P. Blavatsky, *The Secret Doctrine* 1888
+
 This document proposes a corporate governance structure for Primal ETH, a Delaware company.  As Primal ETH seeks to brand itself as an Ethereum-specific fundraising portal, an overall goal for this corporate structure is to use Ethereum-based applications wherever practicable.  This document is split up into the following three sections: (1) Stock; (2) Board of Directors; and (3) Shareholders Voting.  Each of these sections will give a brief overview of a proposal, followed by the relevant law governing each proposal, then followed by a more detailed explaination of the proposal.
 
 ## Stock
