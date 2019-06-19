@@ -10,9 +10,13 @@ This document proposes a corporate governance structure for Primal ETH, a Delawa
 
 [8 Del 224](https://delcode.delaware.gov/title8/c001/sc07/index.shtml)
 
+Summary: Corporate records can be stored using distributed networks, as long as the corporate ledger can be used to prepare a list of stockholders.
+
 Any records administered by or on behalf of the corporation in the regular course of its business, including its stock ledger, books of account, and minute books, may be kept on, or by means of, or be in the form of, any information storage device, method, or 1 or more electronic networks or databases (including 1 or more distributed electronic networks or databases), provided that the records so kept can be converted into clearly legible paper form within a reasonable time, and, with respect to the stock ledger, that the records so kept (i) can be used to prepare the list of stockholders specified in §§ 219 and 220 of this title, (ii) record the information specified in §§ 156, 159, 217(a) and 218 of this title, and (iii) record transfers of stock as governed by Article 8 of subtitle I of Title 6. Any corporation shall convert any records so kept into clearly legible paper form upon the request of any person entitled to inspect such records pursuant to any provision of this chapter. When records are kept in such manner, a clearly legible paper form prepared from or by means of the information storage device, method, or 1 or more electronic networks or databases (including 1 or more distributed electronic networks or databases) shall be valid and admissible in evidence, and accepted for all other purposes, to the same extent as an original paper record of the same information would have been, provided the paper form accurately portrays the record.
 
 [8 Del 202](https://delcode.delaware.gov/title8/c001/sc06/index.shtml):
+
+Summary: Restrictions on stock transfers are allowed as long as the restriction is "noted conspicuously" on certificated stocks, or contained in notices for un-certificated stocks.  The restrictions are binding on successors.  These restrictions are presumed reasonable if done for the company to keep or hold a regulatory advantage.  In our case, the advantage is preventing the stocks from being listed on an exchange, or otherwise publicly transferable, so as to avoid SEC penalties.
 
 (a) A written restriction or restrictions on the transfer or registration of transfer of a security of a corporation, or on the amount of the corporation's securities that may be owned by any person or group of persons, if permitted by this section and noted conspicuously on the certificate or certificates representing the security or securities so restricted or, in the case of uncertificated shares, contained in the notice or notices given pursuant to § 151(f) of this title, may be enforced against the holder of the restricted security or securities or any successor or transferee of the holder including an executor, administrator, trustee, guardian or other fiduciary entrusted with like responsibility for the person or estate of the holder. Unless noted conspicuously on the certificate or certificates representing the security or securities so restricted or, in the case of uncertificated shares, contained in the notice or notices given pursuant to § 151(f) of this title, a restriction, even though permitted by this section, is ineffective except against a person with actual knowledge of the restriction.
 
@@ -30,7 +34,7 @@ Any records administered by or on behalf of the corporation in the regular cours
 
 (5) Prohibits or restricts the transfer of the restricted securities to, or the ownership of restricted securities by, designated persons or classes of persons or groups of persons, and such designation is not manifestly unreasonable.
 
-(d) Any restriction on the transfer or the registration of transfer of the securities of a corporation, or on the amount of securities of a corporation that may be owned by a person or group of persons, for any of the following purposes shall be conclusively presumed to be for a reasonable purpose:
+(d) Any restriction on the transfer or the registration of transfer of the securities of a corporation, or on the amount of securities of a corporation that may be owned by a person or group of persons, *for any of the following purposes shall be conclusively presumed to be for a reasonable purpose*:
 
 (1) Maintaining any local, state, federal or foreign tax advantage to the corporation or its stockholders, including without limitation:
 
@@ -40,7 +44,7 @@ b. Maintaining or preserving any tax attribute (including without limitation n
 
 c. Qualifying or maintaining the qualification of the corporation as a real estate investment trust pursuant to the United States Internal Revenue Code or regulations adopted pursuant to the United States Internal Revenue Code, or
 
-(2) Maintaining any statutory or regulatory advantage or complying with any statutory or regulatory requirements under applicable local, state, federal or foreign law.
+(2) *Maintaining any statutory or regulatory advantage or complying with any statutory or regulatory requirements under applicable local, state, federal or foreign law.*
 
 (e) Any other lawful restriction on transfer or registration of transfer of securities, or on the amount of securities that may be owned by any person or group of persons, is permitted by this section.
 
