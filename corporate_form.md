@@ -1,3 +1,5 @@
+***THIS DOCUMENT IS FOR DEMONSTRATION PURPOSES ONLY AND SHOULD NOT BE USED AS LEGAL OR FINANCIAL ADVICE***
+
 # Corporate Governance for Primal ETH, Inc.
 
 This document proposes a corporate governance structure for Primal ETH, a Delaware company.  As Primal ETH seeks to brand itself as an Ethereum-specific fundraising portal, an overall goal for this corporate structure is to use Ethereum-based applications wherever practicable.  This document is split up into the following three sections: (1) Stock; (2) Board of Directors; and (3) Shareholders Voting.  Each of these sections will give a brief overview of a proposal, followed by the relevant law governing each proposal, then followed by a more detailed explaination of the proposal.
@@ -58,7 +60,7 @@ The stock is a restricted class, meaning in this case that the stockholder is on
 
 #### Validation Token
 
-In order to accept an incoming transfer of Primal Token, an Ethereum address must have a Validation Token.  The Validation Token must verify that the owner of the Ethereum address has submitted his/her name and mailing address so that it can be recorded onto Primal ETH's corporate ledger.  The Token must also be non-transferable so that another unregistered ETH address cannot use it to purchase our stock.
+In order to accept an incoming transfer of Primal Token, an Ethereum address must have a Validation Token.  The Validation Token must, at the very least, verify that the owner of the Ethereum address has submitted his/her name and mailing address so that it can be recorded onto Primal ETH's corporate ledger.  The Token must also be non-transferable so that another unregistered ETH address cannot use it to purchase our stock, and also so the token doesn't end up on a secondary market.
 
 Ideally, the corporate ledger would be updated automatically.  Here is an example of what our ledger should reflect:
 
@@ -71,9 +73,27 @@ Information regarding the stockholder's name and address should not be made publ
 
 There is the question of what happens if someone gives our ledger a fake name and address.  Purchasers should be warned beforehand, and even perhaps be forced to agree to a click-wrapped agreement, that if they give false information, their stock could be dissolved.  If we suspect fraud, we could verify the account by sending a letter to the address provided.  If we receive a return-to-sender, we could freeze the account until or unless the person listed in the ledger can verify his/her information.
 
-Another question is whether we should allow anyone with an Ethereum address to purchase Primal ETH stocks this way.  For now, the answer is likely "no", as we are still in an experimental stage.  For demostration purposes, the process could be shown to be done automatically, but we should approve actual stock transfers.
+Another question is whether we should allow anyone with an Ethereum address to purchase Primal ETH stocks this way.  There are two options here: (i) permissionless stock sales; and (ii) permissioned stock sales.
 
-Regardless, once an Ethereum address has a Validation Token, and we have a name and physical address associated with that account, the purchaser can purchase stock from our smart contract.
+With a permissionless stock sale mechanism, Validation Tokens would be given to anyone who submits their name and address.  This mechanism seems to fit in well with overarching ethos of the cryptocurrency space, that decentralized and permissionless are the only way forward.  However, SEC dicta seems to imply that selling to the general public will invite scrutiny, even absent explicit statutory violations.  In other words, if companies sell to the public, the SEC will find a reason to shut you down.  Take this passage from the DAO report for example:
+
+> Anyone was eligible to purchase DAO Tokens (as long as they paid ETH).  There were no limitations placed on the number of DAO Tokens offered for sale, the number of purchasers of DAO Tokens, or the level of sophistication of such purchasers.
+
+> DAO Token holders were not restricted from re-selling DAO Tokens acquired in the offering, and DAO Token holders could sell their DAO Tokens in a variety of ways in the secondary market and thereby monetize their investment..."
+
+Later on in the report while applying the *Howey* Test, the SEC emphasized that "form should be disregarded for substance."  The underlying policy at play, which is also the very impetus for the creation of the SEC, is need to protect unsophisticated investors from losing their life savings.  In implementing this policy, the SEC would use whatever mechanisms are at its disposal.
+
+In this vein, the SEC could argue that a permissionless sale of equities puts the unsophisticated public-at-large at risk, and therefore it should be shut down, even absent a clear statutory violation.
+
+There's always the option of fighting enforcement actions in court, but the time and expense needed for such litigation would be high, and the risk and reward would be low.  Courts generally defer to agencies (see (Chevron v. Natural Resources Defense Council, Inc.)[https://www.law.cornell.edu/supremecourt/text/467/837]), which means we'd be fighting an uphill battle.  There's also the likelihood of our reputation being damaged by the mere accusation of wrongdoing, which will likely be dissiminated in the press and on social media.  As such, any reputation we might've eaned with the community for implementing permissionless trading of our stock could be offset.  
+
+Which brings us to the permissioned option.  Delaware law allows directors *or* stockholders to decide the terms of restricted stock.  We could let either group vote on whether to issue a validation to a new investor after an opportunity to assess the investor's character and background.  With fewer, close investors, Primal ETH appears to have more of the *form* of traditional, private corporations.  And with the opportunity to assess the investor's character and background, we'd be in a better position to avoid any unsophisticated investors.
+
+This, of course, only perpetuates the problem of income inequality by excluding average investors in favor for experienced ones.  Not only is this detrimental public policy, but it could also harm our reputation.  The problem is that the state has an interest in keeping its citizens solvent because impoverished citizens are more likely to use public resources like medicare, welfare, and subsidized housing.  If a publicly distributed asset bubble pops, the state would become overwhelmed with wards.  To prevent this, the state bars its average citizens from investing in certain speculative assets.  But this bar also acts as a gatekeeper, preventing average investors from purchasing high risk/high reward investments (unless the state is the beneficiary of the purchase as in the case of state lotteries).  These investments therefore are in the sole domain of elite investors, who're often times already wealthy.  Thus, as the old saying goes, the rich get richer and the poor get poorer.
+
+This labyrinth of competing policies is something we should keep in mind in case we're able to find an equitable path forward.  But for now, we should use a permissioned system for distributing Validation Tokens.
+
+Once an Ethereum address has a Validation Token, and we have a name and physical address associated with that account, the purchaser can purchase stock from our smart contract.
 
 #### Smart Contract
 
