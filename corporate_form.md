@@ -6,6 +6,8 @@ This document proposes a corporate governance structure for Primal ETH, a Delawa
 
 ### Overview
 
+The stock is a restricted class with voting rights.  It will be held in a smart contract and paired with ETH so that it is dynamically priced similar to Uniswap exchanges, with the smart contract being the sole liquidity provider.  In order to receive the stock, purchasers must obtain a verification token, which can be obtained through another smart contract that acts as a faucet.  The purchaser must give us his/her name and mailing address in exchange for the verification token so that ownership may be reflected on our corporate ledger, as is required by Del. law.
+
 ### Relevant Law
 
 [8 Del 224](https://delcode.delaware.gov/title8/c001/sc07/index.shtml)
@@ -56,7 +58,7 @@ The stock is a restricted class, meaning in this case that the stockholder is on
 
 #### Validation Token
 
-In order to accept an incoming transfer of Primal Token, an Ethereum address must have a Validation Token.  The Validation Token must verify that the owner of the Ethereum address has submitted his/her name and physical address so that it can be recorded onto Primal ETH's corporate ledger.  The Token must also be non-transferable so that another unregistered address cannot use it to purchase our stock.
+In order to accept an incoming transfer of Primal Token, an Ethereum address must have a Validation Token.  The Validation Token must verify that the owner of the Ethereum address has submitted his/her name and mailing address so that it can be recorded onto Primal ETH's corporate ledger.  The Token must also be non-transferable so that another unregistered ETH address cannot use it to purchase our stock.
 
 Ideally, the corporate ledger would be updated automatically.  Here is an example of what our ledger should reflect:
 
@@ -105,5 +107,7 @@ Summary: SEC report of investigation found that The DAO sold unregistered securi
 ## Board of Directors Voting
 
 ### Overview
+
+Each director will receive his/her voting token from the stockholder meeting.  The voting token will allow the directors to vote for proposals in a specific DAO.
 
 ### Relevant Law
