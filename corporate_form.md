@@ -87,7 +87,9 @@ The purchaser can *only* sell the stock back to the corporation.  The process fo
 
 ### Overview
 
-Annual stockholders meetings would be conducted remotely on a company webpage.  Holders of Primal stock could nominate directors, and vote on directors in a DAO-like setting (Aragon?).  We would need to record the stockholders who are present for our corporate records.  The meeting would be conducted through a streaming service.  There is an Ethereum-based streaming service called [LivePeer](https://livepeer.org), which we should utilize if practicable (or something similar).  We should also allow a live chat in order to let shareholders exchange information.
+Annual stockholders meetings would be conducted remotely on a company webpage.  Holders of Primal stock could nominate directors, and vote on directors in a DAO-like setting (Aragon?).  We would need to record the stockholders who are present for our corporate records.  The meeting would be conducted through a streaming service.  There is an Ethereum-based streaming service called [LivePeer](https://livepeer.org), which we should utilize if practicable (or something similar).
+
+It's important that the shareholders are given full control over the election of directors, with sufficient abilities to organize and share information in order to excercise their power.  Otherwise, it could be argued that the stockholders were forced to rely on the "managerial efforts of others", as the SEC found in it DAO report.  As such, we should provide a live chat in order to let shareholders exchange information.
 
 ### Relevant Law
 
@@ -108,6 +110,6 @@ Summary: SEC report of investigation found that The DAO sold unregistered securi
 
 ### Overview
 
-Each director will receive his/her voting token from the stockholder meeting.  The voting token will allow the directors to vote for proposals in a specific DAO.
+Each director will receive his/her voting token from the stockholder meeting.  The voting token will allow the directors to vote for proposals in a specific DAO.  A simple majority of directors should suffice to carry a vote, with at least 2/3 present for a quorum.  Meetings can be carried out remotely in accordance with Delaware law.
 
 ### Relevant Law
