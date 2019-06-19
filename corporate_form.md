@@ -69,7 +69,9 @@ Information regarding the stockholder's name and address should not be made publ
 
 There is the question of what happens if someone gives our ledger a fake name and address.  Purchasers should be warned beforehand, and even perhaps be forced to agree to a click-wrapped agreement, that if they give false information, their stock could be dissolved.  If we suspect fraud, we could verify the account by sending a letter to the address provided.  If we receive a return-to-sender, we could freeze the account until or unless the person listed in the ledger can verify his/her information.
 
-Once an Ethereum address has a Validation Token, and we have a name and physical address associated with that account, the purchaser can purchase stock from our smart contract.
+Another question is whether we should allow anyone with an Ethereum address to purchase Primal ETH stocks this way.  For now, the answer is likely "no", as we are still in an experimental stage.  For demostration purposes, the process could be shown to be done automatically, but we should approve actual stock transfers.
+
+Regardless, once an Ethereum address has a Validation Token, and we have a name and physical address associated with that account, the purchaser can purchase stock from our smart contract.
 
 #### Smart Contract
 
