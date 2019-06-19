@@ -30,7 +30,7 @@ Summary: Restrictions on stock transfers are allowed as long as the restriction 
 
 > (2) Obligates the corporation or any holder of securities of the corporation or any other person or any combination of the foregoing, to purchase the securities which are the subject of an agreement respecting the purchase and sale of the restricted securities; or
 
-(3) Requires the corporation or the holders of any class or series of securities of the corporation to consent to any proposed transfer of the restricted securities or to approve the proposed transferee of the restricted securities, or to approve the amount of securities of the corporation that may be owned by any person or group of persons; or
+> (3) Requires the corporation or the holders of any class or series of securities of the corporation to consent to any proposed transfer of the restricted securities or to approve the proposed transferee of the restricted securities, or to approve the amount of securities of the corporation that may be owned by any person or group of persons; or
 
 > (4) *Obligates the holder of the restricted securities to sell or transfer an amount of restricted securities to the corporation or to any other holders of securities of the corporation or to any other person or to any combination of the foregoing, or causes or results in the automatic sale or transfer of an amount of restricted securities to the corporation or to any other holders of securities of the corporation or to any other person or to any combination of the foregoing*; or
 
