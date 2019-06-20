@@ -62,28 +62,29 @@ Summary: Restrictions on stock transfers are allowed as long as the restriction 
 
 #### SEC Rule 506 Exemptions
 
-[§230.506](https://www.ecfr.gov/cgi-bin/text-idx?SID=cd6d4f96f78e70b89d687c7892c9f6a9&mc=true&node=pt17.3.230&rgn=div5#se17.3.230_1506)   Exemption for limited offers and sales without regard to dollar amount of offering.
-(a) Exemption. Offers and sales of securities by an issuer that satisfy the conditions in paragraph (b) or (c) of this section shall be deemed to be transactions not involving any public offering within the meaning of section 4(a)(2) of the Act.
+> [§230.506](https://www.ecfr.gov/cgi-bin/text-idx?SID=cd6d4f96f78e70b89d687c7892c9f6a9&mc=true&node=pt17.3.230&rgn=div5#se17.3.230_1506)   Exemption for limited offers and sales without regard to dollar amount of offering.
 
-(b) Conditions to be met in offerings subject to limitation on manner of offering—(1) General conditions. To qualify for an exemption under this section, offers and sales must satisfy all the terms and conditions of §§230.501 and 230.502.
+> (a) Exemption. Offers and sales of securities by an issuer that satisfy the conditions in paragraph (b) or (c) of this section shall be deemed to be transactions not involving any public offering within the meaning of section 4(a)(2) of the Act.
 
-(2) Specific conditions—(i) Limitation on number of purchasers. There are no more than or the issuer reasonably believes that there are no more than 35 purchasers of securities from the issuer in any offering under this section.
+> (b) Conditions to be met in offerings subject to limitation on manner of offering—(1) General conditions. To qualify for an exemption under this section, offers and sales must satisfy all the terms and conditions of §§230.501 and 230.502.
 
-Note to paragraph (b)(2)(i): See §230.501(e) for the calculation of the number of purchasers and §230.502(a) for what may or may not constitute an offering under paragraph (b) of this section.
+> (2) Specific conditions—(i) Limitation on number of purchasers. There are no more than or the issuer reasonably believes that there are no more than 35 purchasers of securities from the issuer in any offering under this section.
 
-(ii) Nature of purchasers. Each purchaser who is not an accredited investor either alone or with his purchaser representative(s) has such knowledge and experience in financial and business matters that he is capable of evaluating the merits and risks of the prospective investment, or the issuer reasonably believes immediately prior to making any sale that such purchaser comes within this description.
+> Note to paragraph (b)(2)(i): See §230.501(e) for the calculation of the number of purchasers and §230.502(a) for what may or may not constitute an offering under paragraph (b) of this section.
 
-(C) *Obtaining a written confirmation from one of the following persons or entities that such person or entity has taken reasonable steps to verify that the purchaser is an accredited investor within the prior three months and has determined that such purchaser is an accredited investor:*
+> (ii) Nature of purchasers. Each purchaser who is not an accredited investor either alone or with his purchaser representative(s) has such knowledge and experience in financial and business matters that he is capable of evaluating the merits and risks of the prospective investment, or the issuer reasonably believes immediately prior to making any sale that such purchaser comes within this description.
 
-(1) A registered broker-dealer;
+> (C) *Obtaining a written confirmation from one of the following persons or entities that such person or entity has taken reasonable steps to verify that the purchaser is an accredited investor within the prior three months and has determined that such purchaser is an accredited investor:*
 
-(2) An investment adviser registered with the Securities and Exchange Commission;
+> (1) A registered broker-dealer;
 
-*(3) A licensed attorney who is in good standing under the laws of the jurisdictions in which he or she is admitted to practice law;* or
+> (2) An investment adviser registered with the Securities and Exchange Commission;
 
-(4) A certified public accountant who is duly registered and in good standing under the laws of the place of his or her residence or principal office.
+> *(3) A licensed attorney who is in good standing under the laws of the jurisdictions in which he or she is admitted to practice law;* or
 
-(D) In regard to any person who purchased securities in an issuer's Rule 506(b) offering as an accredited investor prior to September 23, 2013 and continues to hold such securities, for the same issuer's Rule 506(c) offering, obtaining a certification by such person at the time of sale that he or she qualifies as an accredited investor.
+> (4) A certified public accountant who is duly registered and in good standing under the laws of the place of his or her residence or principal office.
+
+> (D) In regard to any person who purchased securities in an issuer's Rule 506(b) offering as an accredited investor prior to September 23, 2013 and continues to hold such securities, for the same issuer's Rule 506(c) offering, obtaining a certification by such person at the time of sale that he or she qualifies as an accredited investor.
 
 (Italics added)
 
