@@ -16,11 +16,15 @@ The stock is a restricted class with voting rights.  It will be held in a smart 
 
 ### Relevant Law
 
+#### Delaware explicitly allows distributed ledgers for record keeping
+
 [8 Del 224](https://delcode.delaware.gov/title8/c001/sc07/index.shtml)
 
 Summary: Corporate records can be stored using distributed networks, as long as the corporate ledger can be used to prepare a list of stockholders.
 
 > Any records administered by or on behalf of the corporation in the regular course of its business, including its stock ledger, books of account, and minute books, may be kept on, or by means of, or be in the form of, any information storage device, method, or 1 or more electronic networks or databases (including 1 or more distributed electronic networks or databases), provided that the records so kept can be converted into clearly legible paper form within a reasonable time, and, with respect to the stock ledger, that the records so kept (i) can be used to prepare the list of stockholders specified in §§ 219 and 220 of this title, (ii) record the information specified in §§ 156, 159, 217(a) and 218 of this title, and (iii) record transfers of stock as governed by Article 8 of subtitle I of Title 6. Any corporation shall convert any records so kept into clearly legible paper form upon the request of any person entitled to inspect such records pursuant to any provision of this chapter. When records are kept in such manner, a clearly legible paper form prepared from or by means of the information storage device, method, or 1 or more electronic networks or databases (including 1 or more distributed electronic networks or databases) shall be valid and admissible in evidence, and accepted for all other purposes, to the same extent as an original paper record of the same information would have been, provided the paper form accurately portrays the record.
+
+#### Delaware allows restricted stock
 
 [8 Del 202](https://delcode.delaware.gov/title8/c001/sc06/index.shtml):
 
@@ -56,6 +60,31 @@ Summary: Restrictions on stock transfers are allowed as long as the restriction 
 
 > (e) Any other lawful restriction on transfer or registration of transfer of securities, or on the amount of securities that may be owned by any person or group of persons, is permitted by this section.
 
+#### SEC Rule 506 Exemptions
+
+[§230.506](https://www.ecfr.gov/cgi-bin/text-idx?SID=cd6d4f96f78e70b89d687c7892c9f6a9&mc=true&node=pt17.3.230&rgn=div5#se17.3.230_1506)   Exemption for limited offers and sales without regard to dollar amount of offering.
+(a) Exemption. Offers and sales of securities by an issuer that satisfy the conditions in paragraph (b) or (c) of this section shall be deemed to be transactions not involving any public offering within the meaning of section 4(a)(2) of the Act.
+
+(b) Conditions to be met in offerings subject to limitation on manner of offering—(1) General conditions. To qualify for an exemption under this section, offers and sales must satisfy all the terms and conditions of §§230.501 and 230.502.
+
+(2) Specific conditions—(i) Limitation on number of purchasers. There are no more than or the issuer reasonably believes that there are no more than 35 purchasers of securities from the issuer in any offering under this section.
+
+Note to paragraph (b)(2)(i): See §230.501(e) for the calculation of the number of purchasers and §230.502(a) for what may or may not constitute an offering under paragraph (b) of this section.
+
+(ii) Nature of purchasers. Each purchaser who is not an accredited investor either alone or with his purchaser representative(s) has such knowledge and experience in financial and business matters that he is capable of evaluating the merits and risks of the prospective investment, or the issuer reasonably believes immediately prior to making any sale that such purchaser comes within this description.
+
+(C) *Obtaining a written confirmation from one of the following persons or entities that such person or entity has taken reasonable steps to verify that the purchaser is an accredited investor within the prior three months and has determined that such purchaser is an accredited investor:*
+
+(1) A registered broker-dealer;
+
+(2) An investment adviser registered with the Securities and Exchange Commission;
+
+*(3) A licensed attorney who is in good standing under the laws of the jurisdictions in which he or she is admitted to practice law;* or
+
+(4) A certified public accountant who is duly registered and in good standing under the laws of the place of his or her residence or principal office.
+
+(D) In regard to any person who purchased securities in an issuer's Rule 506(b) offering as an accredited investor prior to September 23, 2013 and continues to hold such securities, for the same issuer's Rule 506(c) offering, obtaining a certification by such person at the time of sale that he or she qualifies as an accredited investor.
+
 (Italics added)
 
 ### Purchase
@@ -66,7 +95,7 @@ The stock is a restricted class, meaning in this case that the stockholder is on
 
 In order to accept an incoming transfer of Primal Token, an Ethereum address must have a Validation Token.  The Validation Token must, at the very least, verify that the owner of the Ethereum address has submitted his/her name and mailing address so that it can be recorded onto Primal ETH's corporate ledger.  The Token must also be non-transferable so that another unregistered ETH address cannot use it to purchase our stock, and also so the token doesn't end up on a secondary market.
 
-Ideally, the corporate ledger would be updated automatically.  Here is an example of what our ledger should reflect:
+In an open world, the corporate ledger would be updated automatically.  Here is an example of what our ledger should reflect:
 
 Eth Address | Name | Address | Shares
 ------------ | ------------- | ------------- | -------------
@@ -77,9 +106,13 @@ Information regarding the stockholder's name and address should not be made publ
 
 There is the question of what happens if someone gives our ledger a fake name and address.  Purchasers should be warned beforehand, and even perhaps be forced to agree to a click-wrapped agreement, that if they give false information, their stock could be dissolved.  If we suspect fraud, we could verify the account by sending a letter to the address provided.  If we receive a return-to-sender, we could freeze the account until or unless the person listed in the ledger can verify his/her information.
 
-Another question is whether we should allow anyone with an Ethereum address to purchase Primal ETH stocks this way.  There are two options here: (i) permissionless stock sales; and (ii) permissioned stock sales.
+For this project, we likely don't have to worry about fake names/addresses because, as explained below, we will likely have to sell stock exclusively to "accredited investors."
 
-With a permissionless stock sale mechanism, Validation Tokens would be given to anyone who submits their name and address.  This mechanism seems to fit in well with overarching ethos of the cryptocurrency space, that decentralized and permissionless are the only way forward.  However, SEC dicta seems to imply that selling to the general public will invite scrutiny, even absent explicit statutory violations.  In other words, if companies sell to the public, the SEC will find a reason to shut you down.  Take this passage from the DAO report for example:
+Which brings us to another question, which is whether we should allow anyone with an Ethereum address to purchase Primal ETH stocks this way.  There are two options here: (i) permissionless stock sales; and (ii) permissioned stock sales.
+
+With a permissionless stock sale mechanism, Validation Tokens would be given to anyone who submits their name and address.  This mechanism seems to fit in well with overarching ethos of the cryptocurrency space, that decentralized and permissionless are the only way forward.  In addition, since the Private Placement Exemption allows sales to non-accredited investors under strict circumstances, it doesn't seem implausible to devise a permissionless mechanism compliant with the the black-letter Rules.
+
+However, SEC dicta when it comes to cryptocurrency--seems to imply that selling to the general public will invite scrutiny, even absent explicit statutory violations.  In other words, if companies sell to the public, the SEC will find a reason to shut you down.  Take this passage from the DAO report for example:
 
 > Anyone was eligible to purchase DAO Tokens (as long as they paid ETH).  There were no limitations placed on the number of DAO Tokens offered for sale, the number of purchasers of DAO Tokens, or the level of sophistication of such purchasers.
 
@@ -91,17 +124,15 @@ In this vein, the SEC could argue that a permissionless sale of equities puts th
 
 There's always the option of fighting enforcement actions in court, but the time and expense needed for such litigation would be high, and the risk and reward would be low.  Courts generally defer to agencies (see (Chevron v. Natural Resources Defense Council, Inc.)[https://www.law.cornell.edu/supremecourt/text/467/837]), which means we'd be fighting an uphill battle.  There's also the likelihood of our reputation being damaged by the mere accusation of wrongdoing, which will likely be dissiminated in the press and on social media.  As such, any reputation we might've eaned with the community for implementing permissionless trading of our stock could be offset.  
 
-Which brings us to the permissioned option.  Delaware law allows directors *or* stockholders to decide the terms of restricted stock.  We could let either group vote on whether to issue a validation to a new investor after an opportunity to assess the investor's character and background.  With fewer, close investors, Primal ETH appears to have more of the *form* of traditional, private corporations.  And with the opportunity to assess the investor's character and background, we'd be in a better position to avoid any unsophisticated investors.
+Which brings us to the permissioned option.  Delaware law allows directors *or* stockholders to decide the terms of restricted stock.  We could let either group vote on whether to issue a validation to a new investor after an opportunity to assess the investor's character and background.  With fewer, accredited investors, Primal ETH appears to have more of the *substance* of traditional, private corporations.  In addition, we'd be able to solicit our offering under a Rule 506(c) to accredited investors.  The rule explicitly allows attorney certification.
 
-This, of course, only perpetuates the problem of income inequality by excluding average investors in favor for experienced ones.  Not only is this detrimental public policy, but it could also harm our reputation.  The problem is that the state has an interest in keeping its citizens solvent because impoverished citizens are more likely to use public resources like medicare, welfare, and subsidized housing.  If a publicly distributed asset bubble pops, the state would become overwhelmed with wards.  To prevent this, the state bars its average citizens from investing in certain speculative assets.  But this bar also acts as a gatekeeper, preventing average investors from purchasing high risk/high reward investments (unless the state is the beneficiary of the purchase as in the case of state lotteries).  These investments therefore are in the sole domain of elite investors, who're often times already wealthy.  Thus, as the old saying goes, the rich get richer and the poor get poorer.
+Offering only to accredited investors, of course, only perpetuates the problem of income inequality by excluding average investors in favor for experienced ones.  Not only is this detrimental public policy, but it could also harm our reputation.  The problem is that the state has an interest in keeping its citizens solvent because impoverished citizens are more likely to use public resources like medicare, welfare, and subsidized housing.  If a publicly distributed asset bubble pops, the state would become overwhelmed with wards.  To prevent this, the state bars its average citizens from investing in certain speculative assets.  But this bar also acts as a gatekeeper, preventing average investors from purchasing high risk/high reward investments (unless the state is the beneficiary of the purchase as in the case of state lotteries).  These investments therefore are in the sole domain of elite investors, who're often times already wealthy.  Thus, as the old saying goes, the rich get richer and the poor get poorer.
 
-This labyrinth of competing policies is something we should keep in mind in case we're able to find an equitable path forward.  But for now, we should use a permissioned system for distributing Validation Tokens.
-
-Once an Ethereum address has a Validation Token, and we have a name and physical address associated with that account, the purchaser can purchase stock from our smart contract.
+This labyrinth of competing policies is something we should keep in mind in case we're able to find an equitable path forward, and--on a personal note--I really would like to find a practical way to eliminate barriers to entry like this.  But for now, since we're a new startup with limited resources, we should probably take the easier path forward, which is to only offer to accredited investors.  Thus, I recommend for now we build a permissioned mechanism for issuing verification tokens and structure the offering in compliance with Rule 506(c).
 
 #### Smart Contract
 
-A purchaser will initiate the exchange of ETH for stock by sending an amount of ETH to the smart contract.  The smart contract will check to make sure msg.sender's balance of validation tokens is >= 1, then send stock to the purchaser's address (or else return error).  The stock should be dynamically priced similar to Vitalik Buterin's blog post that was the impetus for Uniswap, with the smart contract getting the sole benefit of increased fees.
+Once an Ethereum address has a Validation Token, and we have a name and physical address associated with that account, the purchaser can purchase stock from our smart contract.  A purchaser will initiate the exchange of ETH for stock by sending an amount of ETH to the smart contract.  The smart contract will check to make sure msg.sender's balance of validation tokens is >= 1, then send stock to the purchaser's address (or else return error).  The stock should be dynamically priced similar to Vitalik Buterin's blog post that was the impetus for Uniswap, with the smart contract getting the sole benefit of increased fees.
 
 ### Sell
 
