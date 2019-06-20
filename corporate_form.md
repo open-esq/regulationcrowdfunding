@@ -1,4 +1,4 @@
-***THIS DOCUMENT IS FOR DEMONSTRATION PURPOSES ONLY AND SHOULD NOT BE USED AS LEGAL OR FINANCIAL ADVICE***
+***THIS DOCUMENT IS FOR DEMONSTRATION PURPOSES ONLY AND SHOULD NOT BE USED AS LEGAL OR FINANCIAL ADVICE.***
 
 # Corporate Governance for Primal ETH, Inc.
 
@@ -14,9 +14,9 @@ This document is split up into the following three sections: (1) Stock; (2) Boar
 
 ### Overview
 
-The stock is a restricted class with voting rights.  It will be held in a smart contract and paired with ETH so that it is dynamically priced similar to Uniswap exchanges, with the smart contract being the sole liquidity provider.  In order to receive the stock, purchasers must obtain a verification token, which can be obtained through another smart contract that acts as a faucet.  The purchaser must give us his/her name and mailing address in exchange for the verification token so that ownership may be reflected on our corporate ledger, as is required by Del. law.
+The stock will be a restricted class with voting rights.  It will be held in a smart contract and paired with ETH so that it is dynamically priced similar to Uniswap exchanges, with the smart contract being the sole liquidity provider.  In order to receive the stock, purchasers must obtain a Verification Token, which can be obtained through another smart contract that acts as a faucet.  The purchaser must give us his/her name and mailing address in exchange for the verification token so that ownership may be reflected on our corporate ledger, as is required by Del. law.
 
-We should offer the stock in compliance with SEC Rule 506(c), which allows solicitation *only* to accredited investors.  This violates the ethos of open source, but--because our company is at the early stages of its development--we don't have the resources available to offer to the general public.
+We should offer the stock in compliance with SEC Rule 506(c), which allows solicitation *only* to accredited investors.  Therefore, we need to follow proper procedures that an ETH address is owned by an accredited investor before issuing a Verification Token.  This violates the ethos of open source, but--because our company is at the early stages of its development--we don't have the resources available to offer to the general public.
 
 ### Relevant Law
 
@@ -137,7 +137,7 @@ This labyrinth of competing policies is something we should keep in mind in case
 
 #### Smart Contract
 
-Once an Ethereum address has a Validation Token, and we have a name and physical address associated with that account, the purchaser can purchase stock from our smart contract.  A purchaser will initiate the exchange of ETH for stock by sending an amount of ETH to the smart contract.  The smart contract will check to make sure msg.sender's balance of validation tokens is >= 1, then send stock to the purchaser's address (or else return error).  The stock should be dynamically priced similar to Vitalik Buterin's blog post that was the impetus for Uniswap, with the smart contract getting the sole benefit of increased fees.
+Once an Ethereum address has a Validation Token, and we have a name and physical address associated with that account (and for now, we certified that he/she is an accredited investor), the purchaser can purchase stock from our smart contract.  A purchaser will initiate the exchange of ETH for stock by sending an amount of ETH to the smart contract.  The smart contract will check to make sure msg.sender's balance of validation tokens is >= 1, then send stock to the purchaser's address (or else return error).  The stock should be dynamically priced similar to Vitalik Buterin's blog post that was the impetus for Uniswap, with the smart contract getting the sole benefit of increased fees.
 
 ### Sell
 
