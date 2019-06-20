@@ -6,13 +6,17 @@
 
 > --H.P. Blavatsky, *The Secret Doctrine* 1888
 
-This document proposes a corporate governance structure for Primal ETH, a Delaware company.  As Primal ETH seeks to brand itself as an Ethereum-specific fundraising portal, an overall goal for this corporate structure is to use Ethereum-based applications wherever practicable.  This document is split up into the following three sections: (1) Stock; (2) Board of Directors; and (3) Shareholders Voting.  Each of these sections will give a brief overview of a proposal, followed by the relevant law governing each proposal, then followed by a more detailed explaination of the proposal.
+This document proposes a corporate governance structure for Primal ETH, a Delaware company.  As Primal ETH seeks to brand itself as an Ethereum-specific fundraising portal, an overall goal for this corporate structure is to use Ethereum-based applications wherever practicable.  
+
+This document is split up into the following three sections: (1) Stock; (2) Board of Directors; and (3) Shareholders Voting.  Each of these sections will give a brief overview of a proposal, followed by the relevant law governing each proposal, then followed by a more detailed explaination of the proposal.
 
 ## Stock
 
 ### Overview
 
 The stock is a restricted class with voting rights.  It will be held in a smart contract and paired with ETH so that it is dynamically priced similar to Uniswap exchanges, with the smart contract being the sole liquidity provider.  In order to receive the stock, purchasers must obtain a verification token, which can be obtained through another smart contract that acts as a faucet.  The purchaser must give us his/her name and mailing address in exchange for the verification token so that ownership may be reflected on our corporate ledger, as is required by Del. law.
+
+We should offer the stock in compliance with SEC Rule 506(c), which allows solicitation *only* to accredited investors.  This violates the ethos of open source, but--because our company is at the early stages of its development--we don't have the resources available to offer to the general public.
 
 ### Relevant Law
 
@@ -166,6 +170,4 @@ Summary: SEC report of investigation found that The DAO sold unregistered securi
 
 ### Overview
 
-Each director will receive his/her voting token from the stockholder meeting.  The voting token will allow the directors to vote for proposals in a specific DAO.  A simple majority of directors should suffice to carry a vote, with at least 2/3 present for a quorum.  Meetings can be carried out remotely in accordance with Delaware law.
-
-### Relevant Law
+Each director will receive his/her voting token from the stockholder meeting.  Starting off, the voting token will allow the directors to vote for proposals in a specific DAO.  A simple majority of directors should suffice to carry a vote, with at least 2/3 present for a quorum.  Meetings can be carried out remotely in accordance with Delaware law.
